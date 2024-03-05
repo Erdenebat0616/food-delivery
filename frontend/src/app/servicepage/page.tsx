@@ -13,9 +13,6 @@ export default function Service() {
       }}
       style={{ width: "100%" }}
     >
-      <Container>
-        <Header />
-      </Container>
       <Stack flex={1} flexDirection="column" gap="40px">
         <Container>
           <Stack flex={1} flexDirection="row" gap="5px" alignItems="center">

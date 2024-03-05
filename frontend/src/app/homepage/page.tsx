@@ -48,9 +48,6 @@ export default function Home() {
       style={{ width: "100%" }}
     >
       <Stack display="flex" flexDirection="column" gap={4}>
-        <Container>
-          <Header />
-        </Container>
         <HomeImg />
         <Container>
           <Stack display="flex" flexDirection="row" gap="30px">

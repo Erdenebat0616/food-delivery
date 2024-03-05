@@ -2,10 +2,11 @@
 
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { CssBaseline, Stack, ThemeProvider } from "@mui/material";
+import { Container, CssBaseline, Stack, ThemeProvider } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { theme } from "@/theme";
 import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,9 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <Stack minHeight="100vh" width="100%">
+              <Container>
+                <Header />
+              </Container>
               <Stack flex={1}>{children}</Stack>
               <Footer />
             </Stack>

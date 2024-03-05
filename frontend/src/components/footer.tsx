@@ -39,8 +39,6 @@ export const Footer = () => {
         </Stack>
         <Stack
           width="100%"
-          fontSize={16}
-          fontWeight={590}
           display="flex"
           flexDirection="row"
           gap={11}
@@ -50,8 +48,10 @@ export const Footer = () => {
           <Typography>Нүүр</Typography>
           <Typography>Холбоо барих</Typography>
           <Typography>Хоолны цэс</Typography>
-          <Link style={{ color: "white" }} href="/servicepage">
-            Үйлчилгээний нөхцөл
+          <Link href="/servicepage">
+            <Button fullWidth variant="contained" disableElevation>
+              <Typography>Үйлчилгээний нөхцөл</Typography>
+            </Button>
           </Link>
           <Typography>Хүргэлтийн бүс</Typography>
           <Typography>Нууцлалын бодлого</Typography>

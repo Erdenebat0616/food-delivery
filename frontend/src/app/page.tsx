@@ -22,9 +22,6 @@ export default function Home() {
       style={{ width: "100%" }}
     >
       <Stack display="flex" flexDirection="column" gap={8}>
-        <Stack>
-          <Header />
-        </Stack>
         <LoginMiddle />
       </Stack>
     </Container>

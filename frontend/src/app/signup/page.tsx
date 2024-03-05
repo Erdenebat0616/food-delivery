@@ -53,9 +53,6 @@ export default function Home() {
       style={{ width: "100%" }}
     >
       <Stack display="flex" flexDirection="column" gap={4}>
-        <Stack>
-          <Header />
-        </Stack>
         <Stack
           width="full"
           display="flex"
